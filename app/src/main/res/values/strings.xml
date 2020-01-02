@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string-array name="Technology">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>.Net</item>
+        <item>Kotlin</item>
+        <item>Ruby</item>
+        <item>Rails</item>
+        <item>Python</item>
+        <item>Java Script</item>
+        <item>Php</item>
+        <item>Ajax</item>
+        <item>Perl</item>
+        <item>Hadoop</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_exit">Exit</string>
+    <string name="refresh">Refresh</string>
+</resources>

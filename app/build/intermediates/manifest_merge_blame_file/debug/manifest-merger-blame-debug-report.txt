@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sampleapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:name="android.hardware.camera"
+12-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="true" /> <!-- Network access -->
+13-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:7:9-32
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Location access -->
+16-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:10:5-80
+16-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Internet access -->
+18-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:12:5-79
+18-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:13:5-67
+19-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[io.fotoapparat:fotoapparat:2.6.1] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\e0b3b0bedd253a8d1606e3c754c999ef\fotoapparat-2.6.1\AndroidManifest.xml:9:5-65
+20-->[io.fotoapparat:fotoapparat:2.6.1] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\e0b3b0bedd253a8d1606e3c754c999ef\fotoapparat-2.6.1\AndroidManifest.xml:9:22-62
+21
+22    <application
+22-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:15:5-35:19
+23        android:allowBackup="true"
+23-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.2] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\c7e28cf33a8972d116e817b742b7a10c\core-1.0.2\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:17:9-43
+27        android:label="@string/app_name"
+27-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:18:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:19:9-54
+29        android:supportsRtl="true"
+29-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:20:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:21:9-40
+32        <activity android:name="com.example.sampleapp.recyclerActivity" />
+32-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:22:9-63
+32-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:22:19-51
+33        <activity android:name="com.example.sampleapp.CrudActivity" />
+33-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:23:9-50
+33-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:23:19-47
+34        <activity android:name="com.example.sampleapp.LocationActivity" />
+34-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:24:9-54
+34-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:24:19-51
+35        <activity android:name="com.example.sampleapp.LockActivity" />
+35-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:25:9-50
+35-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:25:19-47
+36        <activity android:name="com.example.sampleapp.CameraActivity" />
+36-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:26:9-52
+36-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:26:19-49
+37        <activity android:name="com.example.sampleapp.ListViewActivity" />
+37-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:27:9-54
+37-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:27:19-51
+38        <activity android:name="com.example.sampleapp.MainActivity" >
+38-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:28:9-34:20
+38-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:28:19-47
+39            <intent-filter>
+39-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:29:13-33:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:30:17-69
+40-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:30:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:32:17-77
+42-->D:\android_project\SampleApp\app\src\main\AndroidManifest.xml:32:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\09caf3b62209bfcd1c99ef57edd3de5d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\09caf3b62209bfcd1c99ef57edd3de5d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bingo\.gradle\caches\transforms-2\files-2.1\09caf3b62209bfcd1c99ef57edd3de5d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+53    </application>
+54
+55</manifest>
